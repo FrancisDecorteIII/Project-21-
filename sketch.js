@@ -28,13 +28,11 @@ function draw() {
 if(damage>9)
 {
   wall.shapeColor=color(255,0,0);
-  bullet.shapeColor=color(255,0,0);
 }
 
 if(damage<9)
 {
   wall.shapeColor=color(0,255,0);
-  bullet.shapeColor=color(0,255,0);
 }
 
 
